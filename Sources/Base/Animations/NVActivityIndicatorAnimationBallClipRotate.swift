@@ -37,7 +37,7 @@ class NVActivityIndicatorAnimationBallClipRotate: NVActivityIndicatorAnimationDe
         let scaleAnimation = CAKeyframeAnimation(keyPath: "transform.scale")
 
         scaleAnimation.keyTimes = [0, 0.5, 1]
-        scaleAnimation.values = [1, 0.6, 1]
+        scaleAnimation.values = [1, 1, 1]
 
         // Rotate animation
         let rotateAnimation = CAKeyframeAnimation(keyPath: "transform.rotation.z")

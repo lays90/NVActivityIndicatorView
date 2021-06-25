@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'NVActivityIndicatorView'
-  s.version           = '5.1.1'
+  s.version           = '5.1.2'
   s.summary           = 'A collection of awesome loading animations'
   s.homepage          = 'https://github.com/ninjaprox/NVActivityIndicatorView'
   s.screenshot        = 'https://raw.githubusercontent.com/ninjaprox/NVActivityIndicatorView/master/Demo.gif'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.swift_version          = '5.0'
 
-  s.source = { git: 'https://github.com/ninjaprox/NVActivityIndicatorView.git',
+  s.source = { git: 'https://github.com/lays90/NVActivityIndicatorView.git',
                tag: s.version }
 
   s.subspec 'Base' do |ss|
